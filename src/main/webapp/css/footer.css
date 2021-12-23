@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #F95F0D;
+   text-align: center; 
+   line-height: 80%;  
+}
