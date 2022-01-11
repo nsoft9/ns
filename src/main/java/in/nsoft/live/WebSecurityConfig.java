@@ -21,6 +21,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private UserDetailsService userDetailsService;
 	
+		
 	@Bean
 	public AuthenticationProvider authProvider()
 	{
@@ -47,5 +48,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         	.logoutSuccessUrl("/login").permitAll();
         	
        }
+    
+   
+
     
 }

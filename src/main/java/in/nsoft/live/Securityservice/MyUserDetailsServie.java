@@ -21,7 +21,6 @@ public class MyUserDetailsServie implements UserDetailsService {
 		// TODO Auto-generated method stub
 		
 		User user = repo.findByUsername(username);
-		System.out.println("USer details:" +user.getUsername());
 		if ( user == null)
 		{
 			throw new UsernameNotFoundException("User Not Found");

@@ -33,17 +33,6 @@ public class User {
 	@Column(name="ADMINACCESS")
 	private String adminaccess;
 	
-	@Column(name="MOBILENO")
-	private String mobileno;
-	
-	public String getMobileno() {
-		return mobileno;
-	}
-
-	public void setMobileno(String mobileno) {
-		this.mobileno = mobileno;
-	}
-
 	public long getId() {
 		return id;
 	}
